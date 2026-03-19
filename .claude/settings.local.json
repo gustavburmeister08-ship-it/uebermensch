@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python extract_docx.py)",
+      "Bash(pip install:*)",
+      "Bash(python3 extract_docx.py)",
+      "Bash(py extract_docx.py)",
+      "Bash(python3.14 extract_docx.py)",
+      "Bash(python3 -c \":*)",
+      "Read(//c/Users/gusta/**)",
+      "Bash(npx create-expo-app@latest uebermensch-app --template blank-typescript)"
+    ]
+  }
+}

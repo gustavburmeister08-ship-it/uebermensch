@@ -1,0 +1,39 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,jsx,ts,tsx}',
+    './components/**/*.{js,jsx,ts,tsx}',
+  ],
+  presets: [require('nativewind/preset')],
+  theme: {
+    extend: {
+      colors: {
+        // Brand
+        gold: {
+          DEFAULT: '#C9A84C',
+          light: '#E8C96A',
+          dark: '#A07830',
+        },
+        // Pillar colors
+        mind: '#6C63FF',
+        emotion: '#FF6584',
+        body: '#43D9AD',
+        relationships: '#FF9A3C',
+        vocation: '#3C9EFF',
+        wealth: '#A8FF78',
+        adventure: '#FF6B6B',
+        // Neutrals
+        surface: {
+          DEFAULT: '#111111',
+          raised: '#1A1A1A',
+          overlay: '#222222',
+          border: '#2A2A2A',
+        },
+      },
+      fontFamily: {
+        sans: ['System'],
+      },
+    },
+  },
+  plugins: [],
+};
